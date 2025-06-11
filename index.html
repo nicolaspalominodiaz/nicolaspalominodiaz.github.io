@@ -1,79 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Sobre mí - Santiago Palomino</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 40px;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil de Santiago Nicolás Palomino Díaz</title>
+  <style>
+    body {
+      background-color: #cfe8ff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-        h1 {
-            color: #2c3e50;
-        }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
 
-        h2 {
-            color: gray;
-            margin-top: 30px;
-        }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
 
-        p {
-            margin: 5px 0;
-        }
+    h2 {
+      color: gray;
+      text-transform: uppercase;
+      font-size: 18px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
 
-        a {
-            color: #2980b9;
-            text-decoration: none;
-        }
+    p {
+      margin: 8px 0;
+      line-height: 1.5;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    a {
+      color: #004080;
+      text-decoration: none;
+    }
 
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            max-width: 800px;
-            margin: auto;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .datos-generales {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .datos-texto {
+      flex: 1;
+    }
+
+    .foto-perfil {
+      max-width: 180px;
+    }
+
+    .foto-perfil img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Sobre mí - Santiago Palomino</h1>
+  <div class="container">
+    <header>Perfil de Santiago Nicolás Palomino Díaz</header>
 
-        <h2>Datos Generales</h2>
+    <h2>Datos Generales</h2>
+    <div class="datos-generales">
+      <div class="datos-texto">
         <p><strong>Nombre:</strong> <a href="https://www.linkedin.com/in/santiago-nicol%C3%A1s-palomino-d%C3%ADaz-5b96171aa/" target="_blank">Santiago Nicolás Palomino Díaz</a></p>
         <p><strong>Edad:</strong> 19 años</p>
         <p><strong>Nací en:</strong> <a href="https://es.wikipedia.org/wiki/Arequipa" target="_blank">Arequipa, Perú</a></p>
         <p><strong>Estudios Secundarios:</strong> <a href="https://www.prescott.edu.pe/" target="_blank">Colegio Anglo Americano Prescott</a></p>
         <p><strong>Estudios Universitarios:</strong> <a href="https://ucsp.edu.pe/" target="_blank">Universidad Católica San Pablo</a></p>
-        <p><strong>Carrera Universitaria:</strong> <a href="https://ucsp.edu.pe/carreras/administracion-negocios/" target="_blank">Administración de Negocios (2ndo año)</a></p>
+        <p><strong>Carrera Universitaria:</strong> <a href="https://ucsp.edu.pe/carreras/administracion-negocios/" target="_blank">Administración de Negocios (2.º año)</a></p>
+      </div>
+      <div class="foto-perfil">
+        <img src="foto.jpg" alt="Foto de Santiago Nicolás Palomino Díaz">
 
-        <h2>Breve descripción Personal</h2>
-        <p>Nicolás es una persona muy interesada en el mundo empresarial con una visión completa del panorama buscando atender necesidades sociales por medio de su conocimiento y sus aptitudes, le apasiona la natación y la compañía de sus amigos del colegio.</p>
-
-        <h2>Cursos Realizados</h2>
-        <p><a href="https://ucontinental.edu.pe/" target="_blank">Programa de Liderazgo - Universidad Continental</a></p>
-        <p><a href="https://www.ibo.org/es/programmes/diploma-programme/curriculum/individuals-and-societies/business-and-management/" target="_blank">Curso de Gestión Empresarial - Bachillerato Internacional</a></p>
-
-        <h2>Perfil de sus docentes</h2>
-        <p><a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros Vargas</a></p>
-        <p><a href="https://www.linkedin.com/in/mar%C3%ADa-bel%C3%A9n-bocchio-linares-96846035/" target="_blank">Maria Belén Bocchio Linares</a></p>
-
-        <h2>Compañeros Escolares y Universitarios</h2>
-        <p><a href="https://www.linkedin.com/in/thiago-mathias-villegas-zamalloa-ba0616315/" target="_blank">Thiago Mathias Villegas Zamalloa</a></p>
-        <p><a href="https://www.linkedin.com/in/vicente-alonso-ch%C3%A1vez-manrique-b39470237/" target="_blank">Vicente Alonso Chávez Manrique</a></p>
-        <p><a href="https://www.linkedin.com/in/juan-ignacio-chalco-valdivia-088b65254/" target="_blank">Juan Ignacio Chalco Valdivia</a></p>
-
-        <h2>Información Personal</h2>
-        <p><strong>Correo electrónico:</strong> nicolaspalominodiaz@gmail.com</p>
-        <p><strong>Número de Teléfono:</strong> +51 970 856 709</p>
+      </div>
     </div>
+
+    <h2>Breve descripción personal</h2>
+    <p>Nicolás es una persona muy interesada en el mundo empresarial con una visión completa del panorama, buscando atender necesidades sociales por medio de su conocimiento y sus aptitudes. Le apasiona la natación y la compañía de sus amigos del colegio.</p>
+
+    <h2>Cursos realizados</h2>
+    <p>Programa de Liderazgo - <a href="https://ucontinental.edu.pe/" target="_blank">Universidad Continental</a></p>
+    <p>Curso de Gestión Empresarial - <a href="https://www.ibo.org/es/programmes/diploma-programme/curriculum/individuals-and-societies/business-and-management/" target="_blank">Bachillerato Internacional</a></p>
+
+    <h2>Perfil de sus docentes</h2>
+    <p><a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros Vargas</a></p>
+    <p><a href="https://www.linkedin.com/in/mar%C3%ADa-bel%C3%A9n-bocchio-linares-96846035/" target="_blank">Maria Belén Bocchio Linares</a></p>
+
+    <h2>Compañeros escolares y universitarios</h2>
+    <p><a href="https://www.linkedin.com/in/thiago-mathias-villegas-zamalloa-ba0616315/" target="_blank">Thiago Mathias Villegas Zamalloa</a></p>
+    <p><a href="https://www.linkedin.com/in/vicente-alonso-ch%C3%A1vez-manrique-b39470237/" target="_blank">Vicente Alonso Chávez Manrique</a></p>
+    <p><a href="https://www.linkedin.com/in/juan-ignacio-chalco-valdivia-088b65254/" target="_blank">Juan Ignacio Chalco Valdivia</a></p>
+
+    <h2>Información personal</h2>
+    <p><strong>Correo electrónico:</strong> nicolaspalominodiaz@gmail.com</p>
+    <p><strong>Número de teléfono:</strong> +51 970 856 709</p>
+  </div>
 </body>
 </html>
